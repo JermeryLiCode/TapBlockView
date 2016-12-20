@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>TapBlockView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E80BF7C71E07D8BB005EB651</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E80BF7E01E07D8BC005EB651</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E80BF7EB1E07D8BC005EB651</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

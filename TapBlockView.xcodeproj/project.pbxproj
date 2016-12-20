@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E80BF7CD1E07D8BB005EB651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E80BF7CC1E07D8BB005EB651 /* main.m */; };
+		E80BF7D01E07D8BB005EB651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E80BF7CF1E07D8BB005EB651 /* AppDelegate.m */; };
+		E80BF7D31E07D8BB005EB651 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E80BF7D21E07D8BB005EB651 /* ViewController.m */; };
+		E80BF7D61E07D8BB005EB651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80BF7D41E07D8BB005EB651 /* Main.storyboard */; };
+		E80BF7D81E07D8BB005EB651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80BF7D71E07D8BB005EB651 /* Assets.xcassets */; };
+		E80BF7DB1E07D8BB005EB651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80BF7D91E07D8BB005EB651 /* LaunchScreen.storyboard */; };
+		E80BF7E61E07D8BC005EB651 /* TapBlockViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E80BF7E51E07D8BC005EB651 /* TapBlockViewTests.m */; };
+		E80BF7F11E07D8BC005EB651 /* TapBlockViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E80BF7F01E07D8BC005EB651 /* TapBlockViewUITests.m */; };
+		E80BF8001E07D911005EB651 /* ViewActionGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E80BF7FF1E07D911005EB651 /* ViewActionGestureRecognizer.m */; };
+		E80BF8031E07DC15005EB651 /* UIView+KeyAndData.m in Sources */ = {isa = PBXBuildFile; fileRef = E80BF8021E07DC15005EB651 /* UIView+KeyAndData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E80BF7E21E07D8BC005EB651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E80BF7C01E07D8BB005EB651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E80BF7C71E07D8BB005EB651;
+			remoteInfo = TapBlockView;
+		};
+		E80BF7ED1E07D8BC005EB651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E80BF7C01E07D8BB005EB651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E80BF7C71E07D8BB005EB651;
+			remoteInfo = TapBlockView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E80BF7C81E07D8BB005EB651 /* TapBlockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapBlockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80BF7CC1E07D8BB005EB651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E80BF7CE1E07D8BB005EB651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E80BF7CF1E07D8BB005EB651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E80BF7D11E07D8BB005EB651 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E80BF7D21E07D8BB005EB651 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E80BF7D51E07D8BB005EB651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E80BF7D71E07D8BB005EB651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E80BF7DA1E07D8BB005EB651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E80BF7DC1E07D8BB005EB651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80BF7E11E07D8BC005EB651 /* TapBlockViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapBlockViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80BF7E51E07D8BC005EB651 /* TapBlockViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapBlockViewTests.m; sourceTree = "<group>"; };
+		E80BF7E71E07D8BC005EB651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80BF7EC1E07D8BC005EB651 /* TapBlockViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapBlockViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80BF7F01E07D8BC005EB651 /* TapBlockViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapBlockViewUITests.m; sourceTree = "<group>"; };
+		E80BF7F21E07D8BC005EB651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80BF7FE1E07D911005EB651 /* ViewActionGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewActionGestureRecognizer.h; sourceTree = "<group>"; };
+		E80BF7FF1E07D911005EB651 /* ViewActionGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewActionGestureRecognizer.m; sourceTree = "<group>"; };
+		E80BF8011E07DC15005EB651 /* UIView+KeyAndData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KeyAndData.h"; sourceTree = "<group>"; };
+		E80BF8021E07DC15005EB651 /* UIView+KeyAndData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KeyAndData.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E80BF7C51E07D8BB005EB651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80BF7DE1E07D8BC005EB651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80BF7E91E07D8BC005EB651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E80BF7BF1E07D8BB005EB651 = {
+			isa = PBXGroup;
+			children = (
+				E80BF7CA1E07D8BB005EB651 /* TapBlockView */,
+				E80BF7E41E07D8BC005EB651 /* TapBlockViewTests */,
+				E80BF7EF1E07D8BC005EB651 /* TapBlockViewUITests */,
+				E80BF7C91E07D8BB005EB651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E80BF7C91E07D8BB005EB651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E80BF7C81E07D8BB005EB651 /* TapBlockView.app */,
+				E80BF7E11E07D8BC005EB651 /* TapBlockViewTests.xctest */,
+				E80BF7EC1E07D8BC005EB651 /* TapBlockViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E80BF7CA1E07D8BB005EB651 /* TapBlockView */ = {
+			isa = PBXGroup;
+			children = (
+				E80BF7CE1E07D8BB005EB651 /* AppDelegate.h */,
+				E80BF7CF1E07D8BB005EB651 /* AppDelegate.m */,
+				E80BF7D11E07D8BB005EB651 /* ViewController.h */,
+				E80BF7D21E07D8BB005EB651 /* ViewController.m */,
+				E80BF7FE1E07D911005EB651 /* ViewActionGestureRecognizer.h */,
+				E80BF7FF1E07D911005EB651 /* ViewActionGestureRecognizer.m */,
+				E80BF8011E07DC15005EB651 /* UIView+KeyAndData.h */,
+				E80BF8021E07DC15005EB651 /* UIView+KeyAndData.m */,
+				E80BF7D41E07D8BB005EB651 /* Main.storyboard */,
+				E80BF7D71E07D8BB005EB651 /* Assets.xcassets */,
+				E80BF7D91E07D8BB005EB651 /* LaunchScreen.storyboard */,
+				E80BF7DC1E07D8BB005EB651 /* Info.plist */,
+				E80BF7CB1E07D8BB005EB651 /* Supporting Files */,
+			);
+			path = TapBlockView;
+			sourceTree = "<group>";
+		};
+		E80BF7CB1E07D8BB005EB651 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E80BF7CC1E07D8BB005EB651 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E80BF7E41E07D8BC005EB651 /* TapBlockViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E80BF7E51E07D8BC005EB651 /* TapBlockViewTests.m */,
+				E80BF7E71E07D8BC005EB651 /* Info.plist */,
+			);
+			path = TapBlockViewTests;
+			sourceTree = "<group>";
+		};
+		E80BF7EF1E07D8BC005EB651 /* TapBlockViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E80BF7F01E07D8BC005EB651 /* TapBlockViewUITests.m */,
+				E80BF7F21E07D8BC005EB651 /* Info.plist */,
+			);
+			path = TapBlockViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E80BF7C71E07D8BB005EB651 /* TapBlockView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80BF7F51E07D8BC005EB651 /* Build configuration list for PBXNativeTarget "TapBlockView" */;
+			buildPhases = (
+				E80BF7C41E07D8BB005EB651 /* Sources */,
+				E80BF7C51E07D8BB005EB651 /* Frameworks */,
+				E80BF7C61E07D8BB005EB651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapBlockView;
+			productName = TapBlockView;
+			productReference = E80BF7C81E07D8BB005EB651 /* TapBlockView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E80BF7E01E07D8BC005EB651 /* TapBlockViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80BF7F81E07D8BC005EB651 /* Build configuration list for PBXNativeTarget "TapBlockViewTests" */;
+			buildPhases = (
+				E80BF7DD1E07D8BC005EB651 /* Sources */,
+				E80BF7DE1E07D8BC005EB651 /* Frameworks */,
+				E80BF7DF1E07D8BC005EB651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E80BF7E31E07D8BC005EB651 /* PBXTargetDependency */,
+			);
+			name = TapBlockViewTests;
+			productName = TapBlockViewTests;
+			productReference = E80BF7E11E07D8BC005EB651 /* TapBlockViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E80BF7EB1E07D8BC005EB651 /* TapBlockViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80BF7FB1E07D8BC005EB651 /* Build configuration list for PBXNativeTarget "TapBlockViewUITests" */;
+			buildPhases = (
+				E80BF7E81E07D8BC005EB651 /* Sources */,
+				E80BF7E91E07D8BC005EB651 /* Frameworks */,
+				E80BF7EA1E07D8BC005EB651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E80BF7EE1E07D8BC005EB651 /* PBXTargetDependency */,
+			);
+			name = TapBlockViewUITests;
+			productName = TapBlockViewUITests;
+			productReference = E80BF7EC1E07D8BC005EB651 /* TapBlockViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E80BF7C01E07D8BB005EB651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = LiPeng;
+				TargetAttributes = {
+					E80BF7C71E07D8BB005EB651 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E80BF7E01E07D8BC005EB651 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E80BF7C71E07D8BB005EB651;
+					};
+					E80BF7EB1E07D8BC005EB651 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E80BF7C71E07D8BB005EB651;
+					};
+				};
+			};
+			buildConfigurationList = E80BF7C31E07D8BB005EB651 /* Build configuration list for PBXProject "TapBlockView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E80BF7BF1E07D8BB005EB651;
+			productRefGroup = E80BF7C91E07D8BB005EB651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E80BF7C71E07D8BB005EB651 /* TapBlockView */,
+				E80BF7E01E07D8BC005EB651 /* TapBlockViewTests */,
+				E80BF7EB1E07D8BC005EB651 /* TapBlockViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E80BF7C61E07D8BB005EB651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80BF7DB1E07D8BB005EB651 /* LaunchScreen.storyboard in Resources */,
+				E80BF7D81E07D8BB005EB651 /* Assets.xcassets in Resources */,
+				E80BF7D61E07D8BB005EB651 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80BF7DF1E07D8BC005EB651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80BF7EA1E07D8BC005EB651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E80BF7C41E07D8BB005EB651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80BF8001E07D911005EB651 /* ViewActionGestureRecognizer.m in Sources */,
+				E80BF8031E07DC15005EB651 /* UIView+KeyAndData.m in Sources */,
+				E80BF7D31E07D8BB005EB651 /* ViewController.m in Sources */,
+				E80BF7D01E07D8BB005EB651 /* AppDelegate.m in Sources */,
+				E80BF7CD1E07D8BB005EB651 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80BF7DD1E07D8BC005EB651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80BF7E61E07D8BC005EB651 /* TapBlockViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80BF7E81E07D8BC005EB651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80BF7F11E07D8BC005EB651 /* TapBlockViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E80BF7E31E07D8BC005EB651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E80BF7C71E07D8BB005EB651 /* TapBlockView */;
+			targetProxy = E80BF7E21E07D8BC005EB651 /* PBXContainerItemProxy */;
+		};
+		E80BF7EE1E07D8BC005EB651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E80BF7C71E07D8BB005EB651 /* TapBlockView */;
+			targetProxy = E80BF7ED1E07D8BC005EB651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E80BF7D41E07D8BB005EB651 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E80BF7D51E07D8BB005EB651 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E80BF7D91E07D8BB005EB651 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E80BF7DA1E07D8BB005EB651 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E80BF7F31E07D8BC005EB651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E80BF7F41E07D8BC005EB651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E80BF7F61E07D8BC005EB651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapBlockView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangdang.TapBlockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E80BF7F71E07D8BC005EB651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapBlockView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangdang.TapBlockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E80BF7F91E07D8BC005EB651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TapBlockViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangdang.TapBlockViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapBlockView.app/TapBlockView";
+			};
+			name = Debug;
+		};
+		E80BF7FA1E07D8BC005EB651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TapBlockViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangdang.TapBlockViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapBlockView.app/TapBlockView";
+			};
+			name = Release;
+		};
+		E80BF7FC1E07D8BC005EB651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TapBlockViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangdang.TapBlockViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TapBlockView;
+			};
+			name = Debug;
+		};
+		E80BF7FD1E07D8BC005EB651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TapBlockViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangdang.TapBlockViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TapBlockView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E80BF7C31E07D8BB005EB651 /* Build configuration list for PBXProject "TapBlockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80BF7F31E07D8BC005EB651 /* Debug */,
+				E80BF7F41E07D8BC005EB651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80BF7F51E07D8BC005EB651 /* Build configuration list for PBXNativeTarget "TapBlockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80BF7F61E07D8BC005EB651 /* Debug */,
+				E80BF7F71E07D8BC005EB651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E80BF7F81E07D8BC005EB651 /* Build configuration list for PBXNativeTarget "TapBlockViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80BF7F91E07D8BC005EB651 /* Debug */,
+				E80BF7FA1E07D8BC005EB651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E80BF7FB1E07D8BC005EB651 /* Build configuration list for PBXNativeTarget "TapBlockViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80BF7FC1E07D8BC005EB651 /* Debug */,
+				E80BF7FD1E07D8BC005EB651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E80BF7C01E07D8BB005EB651 /* Project object */;
+}
