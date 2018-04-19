@@ -27,6 +27,7 @@
     [btnView viewAction:^(UIView *sender){
         NSLog(@"%@", sender.viewKey);
         NSLog(@"btntttttt");
+        NSLog(@"222222222");
     }];
     
 }
