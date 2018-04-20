@@ -28,6 +28,7 @@
         NSLog(@"%@", sender.viewKey);
         NSLog(@"btntttttt");
         NSLog(@"222222222");
+        NSLog(@"333333333");
     }];
     
 }
